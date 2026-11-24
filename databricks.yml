@@ -1,0 +1,25 @@
+bundle:
+  name: nyc-taxi-project
+
+include:
+  - resources/*.yml
+
+workspace:
+  host: https://dbc-aa33d610-8e24.cloud.databricks.com/browse/folders/3265416836132594?o=1874069493947971
+
+targets:
+  dev:
+    default: true
+
+    workspace:
+      host: https://dbc-aa33d610-8e24.cloud.databricks.com/browse/folders/3265416836132594?o=1874069493947971
+
+    run_as:
+      user_name: bharath.bavisetti@gmail.com
+
+  prod:
+    workspace:
+      host: https://dbc-aa33d610-8e24.cloud.databricks.com/browse/folders/3265416836132594?o=1874069493947971
+
+    run_as:
+      user_name: bharath.bavisetti@gmail.com

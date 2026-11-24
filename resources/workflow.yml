@@ -1,0 +1,32 @@
+resources:
+  jobs:
+    nyc_taxi_workflow:
+
+      name: NYC Taxi Workflow
+
+      schedule:
+        quartz_cron_expression: "0 */5 * * * ?"
+        timezone_id: "UTC"
+        pause_status: UNPAUSED
+
+      email_notifications:
+        on_success:
+          - bharath.bavisetti@gmail.com
+
+        on_failure:
+          - bharath.bavisetti@gmail.com
+
+      tasks:
+
+        - task_key: run_lakeflow_pipeline
+
+          pipeline_task:
+            pipeline_id: f8dd42a9-2b55-4bac-b559-db9b69853fcd
+
+        - task_key: generate_data_quality_report
+
+          depends_on:
+            - task_key: run_lakeflow_pipeline
+
+          notebook_task:
+            notebook_path: /Workspace/Users/bharathbavisetti@gmail.com/NYC_Mobility_Lakehouse/nyc-mobility-lakehouse/notebooks/17_testing.ipynb
