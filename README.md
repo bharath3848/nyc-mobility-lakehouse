@@ -439,19 +439,29 @@ Tools Used:
 ---
 
 # Screenshots
-![image_1795637622254.png](screenshots/image_1795637622254.png)
+## Auto Loader
 
+![Auto Loader](https://raw.githubusercontent.com/bharath3848/nyc-mobility-lakehouse/main/screenshots/1st_1795521033360.png)
 
-![image_1795637657235.png](screenshots/image_1795637657235.png)
+## Lakeflow Pipeline
 
+![Lakeflow Pipeline](https://raw.githubusercontent.com/bharath3848/nyc-mobility-lakehouse/main/screenshots/image_1795521096068.png)
 
-![image_1795637685470.png](screenshots/image_1795637685470.png)
+## Unity Catalog Lineage
 
+![Unity Catalog Lineage](https://raw.githubusercontent.com/bharath3848/nyc-mobility-lakehouse/main/screenshots/image_1795542496542.png)
 
-![image_1795637725801.png](screenshots/image_1795637725801.png)
+## Workflow DAG
 
+![Workflow DAG](https://raw.githubusercontent.com/bharath3848/nyc-mobility-lakehouse/main/screenshots/image_1795542543200.png)
 
-![image_1795637747006.png](screenshots/image_1795637747006.png)
+## Data Quality Report
+
+![Data Quality Report](https://raw.githubusercontent.com/bharath3848/nyc-mobility-lakehouse/main/screenshots/image_1795636838858.png)
+
+## GitHub Actions Deployment
+
+![GitHub Actions Deployment](https://raw.githubusercontent.com/bharath3848/nyc-mobility-lakehouse/main/screenshots/image_1795637747006.png)
 ---
 
 # Author
