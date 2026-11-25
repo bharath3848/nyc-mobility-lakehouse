@@ -1,0 +1,27 @@
+name: Databricks Bundle Validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+
+    runs-on: ubuntu-latest
+
+    env:
+      DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+      DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+
+    steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Databricks CLI
+        uses: databricks/setup-cli@main
+
+      - name: Validate Bundle
+        run: |
+          databricks bundle validate
