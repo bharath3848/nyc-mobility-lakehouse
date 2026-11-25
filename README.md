@@ -439,19 +439,19 @@ Tools Used:
 ---
 
 # Screenshots
-![image_1795637622254.png](./image_1795637622254.png "image_1795637622254.png")
+![image_1795637622254.png](screenshots/image_1795637622254.png)
 
 
-![image_1795637657235.png](./image_1795637657235.png "image_1795637657235.png")
+![image_1795637657235.png](screenshots/image_1795637657235.png)
 
 
-![image_1795637685470.png](./image_1795637685470.png "image_1795637685470.png")
+![image_1795637685470.png](screenshots/image_1795637685470.png)
 
 
-![image_1795637725801.png](./image_1795637725801.png "image_1795637725801.png")
+![image_1795637725801.png](screenshots/image_1795637725801.png)
 
 
-![image_1795637747006.png](./image_1795637747006.png "image_1795637747006.png")
+![image_1795637747006.png](screenshots/image_1795637747006.png)
 ---
 
 # Author
