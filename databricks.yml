@@ -15,11 +15,11 @@ targets:
       host: https://dbc-aa33d610-8e24.cloud.databricks.com
 
     run_as:
-      user_name: bharath.bavisetti@gmail.com
+      user_name: bharathbavisetti@gmail.com
 
   prod:
     workspace:
       host: https://dbc-aa33d610-8e24.cloud.databricks.com
 
     run_as:
-      user_name: bharath.bavisetti@gmail.com
+      user_name: bharathbavisetti@gmail.com
